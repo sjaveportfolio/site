@@ -1,0 +1,109 @@
+.albert-sans-font {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+  
+
+body .left {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+body .right {
+    margin-top:2%;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.banner {
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+  
+.left {
+    width: 16%;
+    padding: 10px;
+    background-color:rgb(231, 231, 231);
+}
+  
+.right {
+    width: 80%;
+    background-color: rgb(216, 216, 216);
+}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abtPersonImg {
+    width: 100%;
+}
+
+.right .title {
+    text-align: left;
+}
+
+.divbanner {
+    color: #ffffff;
+    padding:150px;
+}
+
+.card {
+    transition: 0.3s;
+    width: 80%;
+    margin: auto;
+}
+
+.cardimg {  
+    width: 90%;
+}
+
+.cardP{
+    margin-left: 1.1em;
+    margin-top: 1em;
+    font-size: 30px;
+}
+
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 1em;
+    padding: 1em;
+}
+
+.cardcontent{
+    margin: 1em;
+}
+
+b {
+    padding: 2px 16px;
+}
+
+.pageIdentifier {
+    padding:50px;
+}
+
+.inpageNav {
+    /* stuff */
+    color: placeholder;
+}
+
+.pageTitle {
+    margin-left: 50px;
+    border-left: 5px solid #20203a;
+    padding: 20px;
+}
+
+.darkblue {
+    background-color: rgb(32, 32, 58);
+}
